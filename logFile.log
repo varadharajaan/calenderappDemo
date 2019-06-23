@@ -1,0 +1,219 @@
+2019-06-23 00:14:33,190 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h12m7s639ms789µs300ns).
+2019-06-23 10:30:02,352 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h6s167ms56µs400ns).
+2019-06-23 11:01:36,882 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(79)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-06-23 11:01:37,032 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(79)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-23 11:01:37,042 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(79)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-23 11:02:03,588 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Starting CalenderAppDemoApplication on md1up8cc with PID 58792 (C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo\target\classes started by z0041tdk in C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo)
+2019-06-23 11:02:03,591 DEBUG com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 11:02:03,592 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] No active profile set, falling back to default profiles: default
+2019-06-23 11:02:05,270 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-23 11:02:05,271 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-23 11:02:05,719 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-23 11:02:05,727 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-23 11:02:06,010 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-23 11:02:06,286 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-23 11:02:06,388 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-23 11:02:06,500 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-23 11:02:06,501 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-23 11:02:06,794 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-23 11:02:07,041 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-23 11:02:07,078 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-06-23 11:02:07,090 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@1e43e323
+2019-06-23 11:02:08,000 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,000 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 11:02:08,001 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,001 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 11:02:08,001 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,001 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 11:02:08,002 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,002 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 11:02:08,002 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,002 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 11:02:08,003 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,003 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 11:02:08,003 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,004 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 11:02:08,005 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,005 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp" does not exist, skipping
+2019-06-23 11:02:08,005 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,005 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp_users" does not exist, skipping
+2019-06-23 11:02:08,006 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:02:08,006 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "user" does not exist, skipping
+2019-06-23 11:02:08,446 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3730f716'
+2019-06-23 11:02:09,673 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Started CalenderAppDemoApplication in 6.538 seconds (JVM running for 8.669)
+2019-06-23 11:02:20,770 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-23 11:07:26,130 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-7] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-23 11:07:41,113 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(14)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-06-23 11:07:41,272 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(14)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-23 11:07:41,279 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(14)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-23 11:07:50,810 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Starting CalenderAppDemoApplication on md1up8cc with PID 125692 (C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo\target\classes started by z0041tdk in C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo)
+2019-06-23 11:07:50,816 DEBUG com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 11:07:50,816 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] No active profile set, falling back to default profiles: default
+2019-06-23 11:07:52,835 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-23 11:07:52,836 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-23 11:07:53,158 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-23 11:07:53,163 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-23 11:07:53,336 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-23 11:07:53,638 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-23 11:07:53,735 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-23 11:07:53,929 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-23 11:07:53,931 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-23 11:07:54,131 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-23 11:07:54,335 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-23 11:07:54,367 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-06-23 11:07:54,376 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@6c17c0f8
+2019-06-23 11:07:55,325 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,325 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 11:07:55,326 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,326 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 11:07:55,326 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,326 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 11:07:55,327 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,327 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 11:07:55,327 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,327 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 11:07:55,328 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,328 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 11:07:55,329 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,329 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 11:07:55,330 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,330 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp" does not exist, skipping
+2019-06-23 11:07:55,330 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,330 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp_users" does not exist, skipping
+2019-06-23 11:07:55,331 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 11:07:55,331 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "user" does not exist, skipping
+2019-06-23 11:07:55,569 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3c6bd624'
+2019-06-23 11:07:56,790 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Started CalenderAppDemoApplication in 6.477 seconds (JVM running for 8.63)
+2019-06-23 11:08:04,552 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-06-23 11:08:28,653 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8080-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2019-06-23 14:25:05,464 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h29m19s278ms475µs900ns).
+2019-06-23 19:55:33,839 WARN com.zaxxer.hikari.pool.HikariPool [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h42m5s860ms598µs700ns).
+2019-06-23 22:38:34,628 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Starting CalenderAppDemoApplication on md1up8cc with PID 151672 (C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo\target\classes started by z0041tdk in C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo)
+2019-06-23 22:38:34,632 DEBUG com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 22:38:34,633 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] No active profile set, falling back to default profiles: default
+2019-06-23 22:38:37,055 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-23 22:38:37,055 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-23 22:38:37,465 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-23 22:38:37,471 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-23 22:38:37,800 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-23 22:38:38,131 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-23 22:38:38,267 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-23 22:38:38,422 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-23 22:38:38,423 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-23 22:38:38,610 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-23 22:38:38,839 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-23 22:38:38,864 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-06-23 22:38:38,872 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@49580ca8
+2019-06-23 22:38:40,305 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3fef1e6b'
+2019-06-23 22:38:40,971 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [main] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-06-23 22:38:41,060 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2019-06-23 22:38:41,072 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2019-06-23 22:38:41,076 INFO org.apache.catalina.core.StandardService [main] Stopping service [Tomcat]
+2019-06-23 22:38:41,266 ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userService in com.example.CalenderAppDemo.Controller.UserController required a bean of type 'com.example.CalenderAppDemo.Service.UserService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.example.CalenderAppDemo.Service.UserService' in your configuration.
+
+2019-06-23 22:39:37,231 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Starting CalenderAppDemoApplication on md1up8cc with PID 160900 (C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo\target\classes started by z0041tdk in C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo)
+2019-06-23 22:39:37,237 DEBUG com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 22:39:37,238 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] No active profile set, falling back to default profiles: default
+2019-06-23 22:39:39,692 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-23 22:39:39,693 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-23 22:39:40,095 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-23 22:39:40,103 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-23 22:39:40,396 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-23 22:39:40,749 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-23 22:39:40,873 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-23 22:39:41,050 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-23 22:39:41,052 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-23 22:39:41,208 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-23 22:39:41,427 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-23 22:39:41,449 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-06-23 22:39:41,458 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@113ee1ce
+2019-06-23 22:39:42,493 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,493 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 22:39:42,494 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,494 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 22:39:42,495 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,495 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 22:39:42,496 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,496 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 22:39:42,497 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,497 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 22:39:42,498 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,499 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 22:39:42,499 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,499 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 22:39:42,501 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,501 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp" does not exist, skipping
+2019-06-23 22:39:42,502 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,502 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp_users" does not exist, skipping
+2019-06-23 22:39:42,503 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:39:42,504 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "user" does not exist, skipping
+2019-06-23 22:39:42,762 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5c1c9881'
+2019-06-23 22:39:44,066 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Started CalenderAppDemoApplication in 7.584 seconds (JVM running for 9.532)
+2019-06-23 22:42:56,474 INFO org.hibernate.tool.schema.internal.SchemaDropperImpl$DelayedDropActionImpl [RMI TCP Connection(13)-127.0.0.1] HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2019-06-23 22:42:56,568 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2019-06-23 22:42:56,578 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(13)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2019-06-23 22:43:13,246 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Starting CalenderAppDemoApplication on md1up8cc with PID 163816 (C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo\target\classes started by z0041tdk in C:\Users\Z0041TDK\Downloads\CalenderAppDemo\CalenderAppDemo)
+2019-06-23 22:43:13,256 DEBUG com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.8.RELEASE
+2019-06-23 22:43:13,257 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] No active profile set, falling back to default profiles: default
+2019-06-23 22:43:15,481 INFO org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2019-06-23 22:43:15,481 INFO org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-06-23 22:43:15,854 INFO org.apache.jasper.servlet.TldScanner [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-23 22:43:15,861 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2019-06-23 22:43:16,135 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2019-06-23 22:43:16,432 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2019-06-23 22:43:16,485 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-06-23 22:43:16,624 INFO org.hibernate.Version [main] HHH000412: Hibernate Core {5.3.10.Final}
+2019-06-23 22:43:16,626 INFO org.hibernate.cfg.Environment [main] HHH000206: hibernate.properties not found
+2019-06-23 22:43:16,787 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-06-23 22:43:16,959 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-06-23 22:43:16,978 INFO org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl [main] HHH000422: Disabling contextual LOB creation as connection was null
+2019-06-23 22:43:16,985 INFO org.hibernate.type.BasicTypeRegistry [main] HHH000270: Type registration [java.util.UUID] overrides previous : org.hibernate.type.UUIDBinaryType@61e86192
+2019-06-23 22:43:17,894 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,894 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 22:43:17,895 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,895 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 22:43:17,895 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,895 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp" does not exist, skipping
+2019-06-23 22:43:17,895 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,896 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 22:43:17,896 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,896 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "calenderapp_users" does not exist, skipping
+2019-06-23 22:43:17,897 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,897 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 22:43:17,898 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,898 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] relation "user" does not exist, skipping
+2019-06-23 22:43:17,898 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,898 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp" does not exist, skipping
+2019-06-23 22:43:17,899 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,899 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "calenderapp_users" does not exist, skipping
+2019-06-23 22:43:17,900 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] SQL Warning Code: 0, SQLState: 00000
+2019-06-23 22:43:17,900 WARN org.hibernate.engine.jdbc.spi.SqlExceptionHelper [main] table "user" does not exist, skipping
+2019-06-23 22:43:18,146 INFO org.hibernate.tool.schema.internal.SchemaCreatorImpl [main] HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@410382cb'
+2019-06-23 22:43:19,467 INFO com.example.CalenderAppDemo.CalenderAppDemoApplication [main] Started CalenderAppDemoApplication in 6.769 seconds (JVM running for 8.611)
+2019-06-23 22:43:30,041 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
