@@ -9,7 +9,7 @@ import com.example.CalenderAppDemo.entity.User;
 
 
 public interface UserRepository extends JpaRepository<User, UUID>{
-	
+
 	boolean existsByEmailIgnoreCase(String email);
 
 	Optional<User> findByEmailIgnoreCase(String email);

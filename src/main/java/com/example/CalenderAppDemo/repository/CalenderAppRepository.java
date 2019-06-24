@@ -9,4 +9,6 @@ import com.example.CalenderAppDemo.entity.CalenderApp;
 
 public interface CalenderAppRepository extends JpaRepository<CalenderApp, UUID>{
 
+@Query()
+Optional<CalenderApp> findByEventsTitle(@param String title);
 }
