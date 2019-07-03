@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class CalenderAppDemoApplication {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(CalenderAppDemoApplication.class, args);
 	}
 

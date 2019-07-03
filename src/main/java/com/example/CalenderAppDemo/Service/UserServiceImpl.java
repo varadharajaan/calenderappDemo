@@ -36,11 +36,15 @@ public class UserServiceImpl implements UserService {
 		
 		userRepository.save(user);
 		return new IdDTO(user.getId());
-		
 	}
 
 	@Override
-	public List<User> getUsers(UUID eventId) {
+	public User getUser(UUID eventId) {
+		return userRepository.findById(eventId).get();
+	}
+
+	@Override
+	public List<User> getAllUsers() {
 		return userRepository.findAll();
 	}
 

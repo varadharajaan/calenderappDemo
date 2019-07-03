@@ -13,6 +13,8 @@ public interface UserService {
 
 	IdDTO createUser(@Valid UserInputDTO dto);
 
-	List<User> getUsers(UUID eventId);
+	User getUser(UUID eventId);
+
+	List<User> getAllUsers();
 
 }

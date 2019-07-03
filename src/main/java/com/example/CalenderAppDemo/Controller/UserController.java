@@ -34,9 +34,15 @@ public class UserController {
 		return  new ResponseEntity<IdDTO>(id, HttpStatus.CREATED);
 	}
 	@GetMapping("/getUsers/{eventId}")
-	public ResponseEntity<List<User>> getUsers(final @Valid @PathVariable UUID eventId) 
+	public ResponseEntity<User> getUsers(final @Valid @PathVariable UUID eventId)
 	{
-		return new ResponseEntity<>(userService.getUsers(eventId),HttpStatus.OK);
+		return new ResponseEntity<>(userService.getUser(eventId),HttpStatus.OK);
+	}
+
+	@GetMapping("/getAllUsers")
+	public ResponseEntity<List<User>> getUsers()
+	{
+		return new ResponseEntity<>(userService.getAllUsers(),HttpStatus.OK);
 	}
 
 }
